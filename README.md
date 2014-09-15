@@ -2,6 +2,8 @@ docker-memcached
 ================
 
 To build,
+
+
 docker build --rm=true -t="memcached" .
 
 
@@ -11,11 +13,15 @@ bash /run.sh
 
 
 
+
+
 To install,
 
 yum -y install perl libevent
 
 rpm -Uvh /data/memcached-1.4.20-1.el6.x86_64.rpm
+
+
 
 
 
