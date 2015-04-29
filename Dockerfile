@@ -6,7 +6,7 @@ RUN yum -y install gcc wget libevent-devel perl-Test-Harness perl-Test-Simple rp
 #Build Source
 WORKDIR /opt
 RUN wget http://memcached.org/latest
-RUN mv latest memcached-1.4.20.tar.gz
+RUN mv latest memcached-1.4.24.tar.gz
 
 # Define default run command.
 ADD run.sh /run.sh
